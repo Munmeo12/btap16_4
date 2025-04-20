@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký thành viên</title>
+</head>
+<body>
+    <a href="index7.html">Bài 2</a> <a href="index8.html">Bài 3</a> <a href="index10.html">Bài 4</a> <a href="index.html">Bài 5</a> <a href="index5.html">Bài 6</a> <a href="index4.html">Bài 7</a>
+    <div align="center">
+    <h3>ĐĂNG KÝ THÀNH VIÊN</h3></div>
+    <form action="RegisterServlet" method="post">
+        <fieldset>
+            <legend><b>Thông tin cá nhân</b></legend>
+            Họ và tên: <input type="text" name="hoten"><br><br>
+            
+            Ngày sinh: 
+            <select name="ngay">
+                <option>01</option><option>02</option><option>03</option><option>04</option>
+                <option>05</option><option>06</option><option>07</option><option>08</option>
+                <option>09</option><option>10</option><option>11</option><option>12</option>
+                <option>13</option><option>14</option><option>15</option><option>16</option>
+                <option>17</option><option>18</option><option>19</option><option>20</option>
+                <option>21</option><option>22</option><option>23</option><option>24</option>
+                <option>25</option><option>26</option><option>27</option><option>28</option>
+                <option>29</option><option>30</option>
+                <option>31</option>
+            </select>
+
+            Tháng: 
+            <select name="thang">
+                <option>01</option><option>02</option><option>03</option>
+                <option>04</option><option>05</option><option>06</option>
+                <option>07</option><option>08</option><option>09</option>
+                <option>10</option><option>11</option>
+                <option>12</option>
+            </select>
+
+            Năm: <input type="text" name="nam" size="4"><br><br>
+
+            Giới tính: 
+            <input type="radio" name="gioitinh" value="Nam" checked>Nam
+            <input type="radio" name="gioitinh" value="Nữ">Nữ<br><br>
+
+            Địa chỉ: <br><textarea name="diachi" rows="2" cols="40"></textarea><br><br>
+            Điện thoại: <input type="number" name="dienthoai"><br><br>
+            Email: <input type="email" name="email"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Thông tin đăng nhập</b></legend>
+            Tên đăng nhập: <input type="text" name="username"><br><br>
+            Mật khẩu: <input type="password" name="password"><br><br>
+            Nhập lại mật khẩu: <input type="password" name="repass"><br><br>
+        </fieldset>
+<div align="center">
+        <input type="submit" value="Đăng ký">
+        <input type="reset" value="Hủy"></div>
+    </form>
+</body>
+</html>
